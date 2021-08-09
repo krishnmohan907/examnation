@@ -1,0 +1,19 @@
+<select [formControl]="selectedProfile" (change)="onProfileChange()" class="select-profile">
+    <option *ngFor="let prf of profiles" [ngValue]="prf">
+       {{ prf.name }}
+    </option>
+ </select>
+ <p>{{selectedProfile.value.name}}</p>
+ <select [formControl]="selectedCity" (change)="onCityChange()" class="select-city">
+    <option *ngFor="let ct of cities" [ngValue]="ct">
+       {{ ct.name }}
+    </option>
+ </select>
+ <div>{{selectedCity.value.name}}</div>    
+
+ <button (click)="setName()" class="set-button">Set</button>
+      <p>{{personName}}</p>
+
+      <button (click)="sendData()" class="send-button">Send</button>
+
+      <button (click)="editPerson(101)" class="edit-button">Edit</button>

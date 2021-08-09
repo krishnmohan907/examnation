@@ -1,0 +1,65 @@
+.button{
+    background-color: rgb(40, 40, 228);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px;
+    margin-right: 105px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    bottom: 20px;
+}
+
+.buttonhotel{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px;
+    margin-right: 105px;
+    border-radius: 10px;
+    
+}
+
+.buttonservice{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px;
+    margin-right: 105px;
+    border-radius: 10px;
+}
+
+.container { 
+   
+    position: relative;
+    text-align: center;
+  }
+
+  .radio{
+      margin-top: 40px;
+      font-kerning: 30px;
+  }
+  .input[type=radio] {
+    width: 10px;
+    height: 10px;
+}
+
+.submitbutton{
+    margin-left: 1200px;
+    margin-top: 40px;
+}
+  
